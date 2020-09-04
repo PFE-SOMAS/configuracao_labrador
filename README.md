@@ -95,10 +95,10 @@ crontab -e
 e adicionar a linha a seguir no final do arquivo (verifique se o script realmente está na pasta indicada).
 
 ```console
-@reboot sleep 40 && /home/aluno/configuracao_aluno/script_compartilhamento.sh &
+@reboot sleep 40 && /home/aluno/configuracao_labrador/script_compartilhamento.sh &
 ```
 
-O arquivo deve ficar como a imagem a seguir, porém com o caminho "/home/aluno/configuracao_aluno/script_compartilhamento.sh".
+O arquivo deve ficar como a imagem a seguir, porém com o caminho "/home/aluno/configuracao_labrador/script_compartilhamento.sh".
 
 ![Crontab](Imagens/crontab.png "Editando o Crontab")
 
