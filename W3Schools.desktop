@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=W3Schools
+Comment=Faça pesquisas.
+Icon=/home/aluno/Pictures/w3schools.png
+Exec=chromium-browser ~/SOMAS/Pesquisar/w3schools/index.html
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Name[pt_BR]=W3Schools.desktop

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Visual Studio Code
+Comment=Ambiente de desenvolvimento de código.
+Icon=/home/aluno/Pictures/VSCode.png
+Exec=/usr/bin/chromium-browser --profile-directory=Default --app-id=ojfonlpngeniegheeikdlhffdhnicbke
+Type=Application
+Encoding=UTF-8
+Terminal=false
+StartupWMClass=crx_ojfonlpngeniegheeikdlhffdhnicbke
