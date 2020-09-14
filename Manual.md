@@ -17,20 +17,20 @@ Esta é a CPU do nosso kit. É nela que toda a mágica acontece e com ela é pos
 
 - Placa de Desenvolvimento
 
-![Placa](Imagens/placa.png "Placa de Desenvolvimento")
+![Placa](Imagens/placa.jpg "Placa de Desenvolvimento")
 
 A placa de desenvolvimento é o coração do computador. Ela possui todos os materiais que você irá acessar e é com ela que você poderá fazer diversas tarefas. Ela recebe palavras e números do teclado e do mouse e envia imagens para o monitor. Para funcionar, ela precisa receber energia, por isso sempre que você for utilizá-la será necesário conectá-la na tomada ou em um carregador portátil.
 
 
 - Carregador portátil
 
-![Carregador](Imagens/carregador.png "carregador")
+![Carregador](Imagens/carregador.jpg "carregador")
 
 O carregador portátil serve para fornecer energia para as diferentes partes do nosso computador. Sem ele tudo precisaria ser alimentado de outra forma, como por meio de tomadas, por exemplo. No nosso computador, ele irá fornecer energia para a placa de desenvolvimento e para o monitor, os demais componentes receberão energia diretamente da placa de desenvolvimento, ela é um canal que leva energia do carregador portátil para o teclado e o mouse.
 
 - Monitor
 
-![Monitor](Imagens/monitor.png "Monitor")
+![Monitor](Imagens/monitor.jpg "Monitor")
 
 O monitor é que mostra para você o que está acontecendo no computador. Com ele nós podemos ver o que estamos fazendo e como o computador está respondendo às tarefas.
 
