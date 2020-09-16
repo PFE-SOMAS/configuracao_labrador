@@ -14,7 +14,7 @@ su - aluno
 sudo whoami
 ```
 
-Após a execução do último comando, a saída do terminal indicará se a conta aluno recém criada possui ou não permissões root, e é esperado que ela tenha.
+Após a execução do último comando, a saída do terminal indicará se a conta aluno recém criada possui ou não permissões root, e é esperado que ela tenha. Após isso, encerre a sessão no usuário "caninos" a faça o login na conta "aluno".
 
 ### Ativando SSH
 
@@ -125,3 +125,22 @@ Teste cada um dos atalhos para verificar se eles funcionam como o esperado (O at
 A área de trabalho do notebook do professor deverá se parecer com a imagem a seguir.
 
 ![Desktop](Imagens/desktop.png "Desktop")
+
+### Alterando a linguagem
+
+A configuração padrão de linguagem do Labrador é inglês americano, para alterá-la para o português brasileiro será necessário encerrar a sessão na conta "aluno", logar na conta "caninos" e rodar o seguinte comando no terminal:
+
+```console
+sudo dpkg-reconfigure locales
+```
+
+Ao pressionar enter aparecerá um menu com diversas opções de linguagem. Desça até a opção "pt\_BR.UTF-8 UTF-8", aperte barra de espaço para selecionar esta linguagem e dê enter. Na tela seguinte selecione novamente "pt\_BR.UTF-8 UTF-8" e dê enter novamente.
+
+Em seguida, após a conclusão do comando anterior, execute os seguintes comandos:
+
+```console
+localectl set-locale LANG=pt_BR.UTF-8
+sed -i "s/pt\_BR/en\_US/" ~/.dmrc
+```
+
+Em seguida reinicie o Labrador e a placa irá iniciar em portguês brasileiro.
