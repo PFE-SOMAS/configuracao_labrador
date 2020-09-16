@@ -140,7 +140,7 @@ Em seguida, após a conclusão do comando anterior, execute os seguintes comando
 
 ```console
 localectl set-locale LANG=pt_BR.UTF-8
-sed -i "s/pt\_BR/en\_US/" ~/.dmrc
+sed -i "s/pt_BR/en_US/" ~/.dmrc
 ```
 
 Em seguida reinicie o Labrador e a placa irá iniciar em portguês brasileiro.
