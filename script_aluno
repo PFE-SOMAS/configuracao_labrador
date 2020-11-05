@@ -10,6 +10,7 @@ sudo apt-get upgrade -y
 
 # GIT
 sudo apt install git
+sudo apt-get install scratch -y
 git --version
 
 # Python
